@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D23D4E9296AD278008751EC /* DeleteActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D23D4E2296AD278008751EC /* DeleteActionView.swift */; };
+		6D23D4EA296AD278008751EC /* ConnectivityProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D23D4E3296AD278008751EC /* ConnectivityProvider.swift */; };
+		6D23D4EB296AD278008751EC /* ContactAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D23D4E4296AD278008751EC /* ContactAddView.swift */; };
+		6D23D4EC296AD278008751EC /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D23D4E5296AD278008751EC /* ViewModel.swift */; };
+		6D23D4ED296AD278008751EC /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D23D4E6296AD278008751EC /* Contact.swift */; };
+		6D23D4EE296AD278008751EC /* ContactListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D23D4E7296AD278008751EC /* ContactListView.swift */; };
+		6D23D4EF296AD278008751EC /* AddActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D23D4E8296AD278008751EC /* AddActionView.swift */; };
+		6D23D4F0296AD27C008751EC /* ConnectivityProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D23D4E3296AD278008751EC /* ConnectivityProvider.swift */; };
+		6D23D4F1296AD27C008751EC /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D23D4E6296AD278008751EC /* Contact.swift */; };
+		6D23D4F2296AD27C008751EC /* ContactAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D23D4E4296AD278008751EC /* ContactAddView.swift */; };
+		6D23D4F3296AD27C008751EC /* DeleteActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D23D4E2296AD278008751EC /* DeleteActionView.swift */; };
+		6D23D4F4296AD27C008751EC /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D23D4E5296AD278008751EC /* ViewModel.swift */; };
+		6D23D4F5296AD27C008751EC /* AddActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D23D4E8296AD278008751EC /* AddActionView.swift */; };
+		6D23D4F6296AD27C008751EC /* ContactListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D23D4E7296AD278008751EC /* ContactListView.swift */; };
+		6D23D4FD296AD2F3008751EC /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6D23D4FC296AD2F3008751EC /* RealmSwift */; };
+		6D23D500296AD304008751EC /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6D23D4FF296AD304008751EC /* RealmSwift */; };
+		6D780092298380010080C08E /* PhoneConnectivityProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D780091298380010080C08E /* PhoneConnectivityProvider.swift */; };
+		6D7800942983800F0080C08E /* WatchConnectivityProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7800932983800F0080C08E /* WatchConnectivityProvider.swift */; };
+		6D7800962983828F0080C08E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7800952983828F0080C08E /* Model.swift */; };
+		6D780097298382F90080C08E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7800952983828F0080C08E /* Model.swift */; };
+		6DAAE00E296AD1E40055AFE7 /* contactsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAAE00D296AD1E40055AFE7 /* contactsApp.swift */; };
+		6DAAE012296AD1E50055AFE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DAAE011296AD1E50055AFE7 /* Assets.xcassets */; };
+		6DAAE015296AD1E50055AFE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DAAE014296AD1E50055AFE7 /* Preview Assets.xcassets */; };
+		6DAAE01B296AD1E50055AFE7 /* contacts Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6DAAE01A296AD1E50055AFE7 /* contacts Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6DAAE020296AD1E50055AFE7 /* contactsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAAE01F296AD1E50055AFE7 /* contactsApp.swift */; };
+		6DAAE024296AD1E60055AFE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DAAE023296AD1E60055AFE7 /* Assets.xcassets */; };
+		6DAAE027296AD1E60055AFE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DAAE026296AD1E60055AFE7 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DAAE01C296AD1E50055AFE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DAAE002296AD1E40055AFE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DAAE019296AD1E50055AFE7;
+			remoteInfo = "contacts Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6DAAE02D296AD1E60055AFE7 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				6DAAE01B296AD1E50055AFE7 /* contacts Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6D23D4E2296AD278008751EC /* DeleteActionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteActionView.swift; sourceTree = "<group>"; };
+		6D23D4E3296AD278008751EC /* ConnectivityProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectivityProvider.swift; sourceTree = "<group>"; };
+		6D23D4E4296AD278008751EC /* ContactAddView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactAddView.swift; sourceTree = "<group>"; };
+		6D23D4E5296AD278008751EC /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		6D23D4E6296AD278008751EC /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		6D23D4E7296AD278008751EC /* ContactListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListView.swift; sourceTree = "<group>"; };
+		6D23D4E8296AD278008751EC /* AddActionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddActionView.swift; sourceTree = "<group>"; };
+		6D780091298380010080C08E /* PhoneConnectivityProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneConnectivityProvider.swift; sourceTree = "<group>"; };
+		6D7800932983800F0080C08E /* WatchConnectivityProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivityProvider.swift; sourceTree = "<group>"; };
+		6D7800952983828F0080C08E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		6DAAE00A296AD1E40055AFE7 /* contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DAAE00D296AD1E40055AFE7 /* contactsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactsApp.swift; sourceTree = "<group>"; };
+		6DAAE011296AD1E50055AFE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DAAE014296AD1E50055AFE7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6DAAE01A296AD1E50055AFE7 /* contacts Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "contacts Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DAAE01F296AD1E50055AFE7 /* contactsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactsApp.swift; sourceTree = "<group>"; };
+		6DAAE023296AD1E60055AFE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DAAE026296AD1E60055AFE7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DAAE007296AD1E40055AFE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D23D4FD296AD2F3008751EC /* RealmSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DAAE017296AD1E50055AFE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D23D500296AD304008751EC /* RealmSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D23D4E1296AD26A008751EC /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6D23D4FA296AD28C008751EC /* Providers */,
+				6D23D4F9296AD288008751EC /* ViewModels */,
+				6D23D4F8296AD284008751EC /* Models */,
+				6D23D4F7296AD280008751EC /* Views */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		6D23D4F7296AD280008751EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6D23D4E8296AD278008751EC /* AddActionView.swift */,
+				6D23D4E2296AD278008751EC /* DeleteActionView.swift */,
+				6D23D4E4296AD278008751EC /* ContactAddView.swift */,
+				6D23D4E7296AD278008751EC /* ContactListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6D23D4F8296AD284008751EC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6D7800952983828F0080C08E /* Model.swift */,
+				6D23D4E6296AD278008751EC /* Contact.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6D23D4F9296AD288008751EC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6D23D4E5296AD278008751EC /* ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6D23D4FA296AD28C008751EC /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				6D23D4E3296AD278008751EC /* ConnectivityProvider.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		6D23D4FE296AD304008751EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6DAAE001296AD1E40055AFE7 = {
+			isa = PBXGroup;
+			children = (
+				6D23D4E1296AD26A008751EC /* Shared */,
+				6DAAE00C296AD1E40055AFE7 /* contacts */,
+				6DAAE01E296AD1E50055AFE7 /* contacts Watch App */,
+				6DAAE00B296AD1E40055AFE7 /* Products */,
+				6D23D4FE296AD304008751EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6DAAE00B296AD1E40055AFE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DAAE00A296AD1E40055AFE7 /* contacts.app */,
+				6DAAE01A296AD1E50055AFE7 /* contacts Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DAAE00C296AD1E40055AFE7 /* contacts */ = {
+			isa = PBXGroup;
+			children = (
+				6DAAE00D296AD1E40055AFE7 /* contactsApp.swift */,
+				6DAAE011296AD1E50055AFE7 /* Assets.xcassets */,
+				6DAAE013296AD1E50055AFE7 /* Preview Content */,
+				6D780091298380010080C08E /* PhoneConnectivityProvider.swift */,
+			);
+			path = contacts;
+			sourceTree = "<group>";
+		};
+		6DAAE013296AD1E50055AFE7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6DAAE014296AD1E50055AFE7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6DAAE01E296AD1E50055AFE7 /* contacts Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				6DAAE01F296AD1E50055AFE7 /* contactsApp.swift */,
+				6DAAE023296AD1E60055AFE7 /* Assets.xcassets */,
+				6DAAE025296AD1E60055AFE7 /* Preview Content */,
+				6D7800932983800F0080C08E /* WatchConnectivityProvider.swift */,
+			);
+			path = "contacts Watch App";
+			sourceTree = "<group>";
+		};
+		6DAAE025296AD1E60055AFE7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6DAAE026296AD1E60055AFE7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DAAE009296AD1E40055AFE7 /* contacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DAAE02E296AD1E60055AFE7 /* Build configuration list for PBXNativeTarget "contacts" */;
+			buildPhases = (
+				6DAAE006296AD1E40055AFE7 /* Sources */,
+				6DAAE007296AD1E40055AFE7 /* Frameworks */,
+				6DAAE008296AD1E40055AFE7 /* Resources */,
+				6DAAE02D296AD1E60055AFE7 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DAAE01D296AD1E50055AFE7 /* PBXTargetDependency */,
+			);
+			name = contacts;
+			packageProductDependencies = (
+				6D23D4FC296AD2F3008751EC /* RealmSwift */,
+			);
+			productName = contacts;
+			productReference = 6DAAE00A296AD1E40055AFE7 /* contacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DAAE019296AD1E50055AFE7 /* contacts Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DAAE02A296AD1E60055AFE7 /* Build configuration list for PBXNativeTarget "contacts Watch App" */;
+			buildPhases = (
+				6DAAE016296AD1E50055AFE7 /* Sources */,
+				6DAAE017296AD1E50055AFE7 /* Frameworks */,
+				6DAAE018296AD1E50055AFE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "contacts Watch App";
+			packageProductDependencies = (
+				6D23D4FF296AD304008751EC /* RealmSwift */,
+			);
+			productName = "contacts Watch App";
+			productReference = 6DAAE01A296AD1E50055AFE7 /* contacts Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DAAE002296AD1E40055AFE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					6DAAE009296AD1E40055AFE7 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					6DAAE019296AD1E50055AFE7 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 6DAAE005296AD1E40055AFE7 /* Build configuration list for PBXProject "contacts" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DAAE001296AD1E40055AFE7;
+			packageReferences = (
+				6D23D4FB296AD2F3008751EC /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
+			productRefGroup = 6DAAE00B296AD1E40055AFE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DAAE009296AD1E40055AFE7 /* contacts */,
+				6DAAE019296AD1E50055AFE7 /* contacts Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DAAE008296AD1E40055AFE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DAAE015296AD1E50055AFE7 /* Preview Assets.xcassets in Resources */,
+				6DAAE012296AD1E50055AFE7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DAAE018296AD1E50055AFE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DAAE027296AD1E60055AFE7 /* Preview Assets.xcassets in Resources */,
+				6DAAE024296AD1E60055AFE7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DAAE006296AD1E40055AFE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D23D4EF296AD278008751EC /* AddActionView.swift in Sources */,
+				6D23D4EC296AD278008751EC /* ViewModel.swift in Sources */,
+				6DAAE00E296AD1E40055AFE7 /* contactsApp.swift in Sources */,
+				6D23D4EE296AD278008751EC /* ContactListView.swift in Sources */,
+				6D23D4EB296AD278008751EC /* ContactAddView.swift in Sources */,
+				6D780097298382F90080C08E /* Model.swift in Sources */,
+				6D780092298380010080C08E /* PhoneConnectivityProvider.swift in Sources */,
+				6D23D4ED296AD278008751EC /* Contact.swift in Sources */,
+				6D23D4E9296AD278008751EC /* DeleteActionView.swift in Sources */,
+				6D23D4EA296AD278008751EC /* ConnectivityProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DAAE016296AD1E50055AFE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D23D4F3296AD27C008751EC /* DeleteActionView.swift in Sources */,
+				6D23D4F5296AD27C008751EC /* AddActionView.swift in Sources */,
+				6D23D4F1296AD27C008751EC /* Contact.swift in Sources */,
+				6D23D4F2296AD27C008751EC /* ContactAddView.swift in Sources */,
+				6DAAE020296AD1E50055AFE7 /* contactsApp.swift in Sources */,
+				6D7800962983828F0080C08E /* Model.swift in Sources */,
+				6D7800942983800F0080C08E /* WatchConnectivityProvider.swift in Sources */,
+				6D23D4F6296AD27C008751EC /* ContactListView.swift in Sources */,
+				6D23D4F4296AD27C008751EC /* ViewModel.swift in Sources */,
+				6D23D4F0296AD27C008751EC /* ConnectivityProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DAAE01D296AD1E50055AFE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DAAE019296AD1E50055AFE7 /* contacts Watch App */;
+			targetProxy = 6DAAE01C296AD1E50055AFE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6DAAE028296AD1E60055AFE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6DAAE029296AD1E60055AFE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6DAAE02B296AD1E60055AFE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"contacts Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 4N73648B9A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = contacts;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.hitori.contacts;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hitori.contacts.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		6DAAE02C296AD1E60055AFE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"contacts Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 4N73648B9A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = contacts;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.hitori.contacts;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hitori.contacts.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		6DAAE02F296AD1E60055AFE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"contacts/Preview Content\"";
+				DEVELOPMENT_TEAM = 4N73648B9A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = contacts;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hitori.contacts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DAAE030296AD1E60055AFE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"contacts/Preview Content\"";
+				DEVELOPMENT_TEAM = 4N73648B9A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = contacts;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hitori.contacts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DAAE005296AD1E40055AFE7 /* Build configuration list for PBXProject "contacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DAAE028296AD1E60055AFE7 /* Debug */,
+				6DAAE029296AD1E60055AFE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DAAE02A296AD1E60055AFE7 /* Build configuration list for PBXNativeTarget "contacts Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DAAE02B296AD1E60055AFE7 /* Debug */,
+				6DAAE02C296AD1E60055AFE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DAAE02E296AD1E60055AFE7 /* Build configuration list for PBXNativeTarget "contacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DAAE02F296AD1E60055AFE7 /* Debug */,
+				6DAAE030296AD1E60055AFE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6D23D4FB296AD2F3008751EC /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6D23D4FC296AD2F3008751EC /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6D23D4FB296AD2F3008751EC /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		6D23D4FF296AD304008751EC /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6D23D4FB296AD2F3008751EC /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6DAAE002296AD1E40055AFE7 /* Project object */;
+}
